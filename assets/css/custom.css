@@ -16,7 +16,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    margin: 0 0 -3px 0;
+    margin: 0 0 -2px 0;
+    padding-left: 0.5rem;
 }
 
 .pagination-item {
@@ -35,6 +36,7 @@
     border-bottom: #fff 3px solid;
     border-radius: 10px 10px 0 0;
     z-index: 3;
+    background: rgba(255,255,255,0.95);
 }
 
 .pagination-item div {
@@ -102,4 +104,17 @@
     align-items: center;
     gap: 50px;
     cursor: pointer;
+}
+
+#email {
+    cursor: pointer;
+}
+
+.icon svg {
+    opacity: 0.6;
+    transition: opacity ease 0.3s;
+}
+
+.icon:hover svg {
+    opacity: 1;
 }
